@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rian | My Digital World</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #080914;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  min-height: 220px;
+  background: linear-gradient(120deg,#090979,#6500a8,#00bfff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: gradient 6s infinite alternate;
+}
+
+header h1 {
+  font-size: 65px;
+  letter-spacing: 8px;
+  text-shadow: 0 0 25px #00d9ff;
+}
+
+@keyframes gradient {
+  from { filter: hue-rotate(0deg); }
+  to { filter: hue-rotate(80deg); }
+}
+
+.typing {
+  color: #bd78ff;
+  font-size: 25px;
+  margin-top: 20px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: .3; }
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+}
+
+h2 {
+  color: #a66bff;
+  margin: 40px 0 20px;
+  text-shadow: 0 0 12px #7900ff;
+}
+
+p {
+  color: #c4c8d8;
+  line-height: 1.8;
+}
+
+.gif {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  margin: 25px auto;
+  display: block;
+  box-shadow: 0 0 25px #6200ff66;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 25px 0;
+}
+
+.skills span {
+  padding: 12px 20px;
+  background: #171a30;
+  border: 1px solid #914cff;
+  border-radius: 10px;
+  color: #d6b8ff;
+  transition: .3s;
+}
+
+.skills span:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 0 20px #8c00ff;
+}
+
+.card {
+  background: #121629;
+  border: 1px solid #333b60;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  transition: .4s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #a66bff;
+}
+
+.stats {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+footer {
+  background: linear-gradient(90deg,#090979,#6500a8);
+  text-align: center;
+  padding: 40px 15px;
+  margin-top: 50px;
+}
+
+a {
+  color: #70cfff;
+  text-decoration: none;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>RIAN</h1>
+    <div class="typing" id="typing">
+      WELCOME TO MY WORLD
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <h2>🌌 GOOD EVENING 🌌</h2>
+
+  <img class="gif"
+  src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
+  alt="Coding animation">
+
+  <h2>👨‍💻 ABOUT ME</h2>
+
+  <div class="card">
+    <p>
+      Hello! My name is Rian.<br>
+      I am learning programming and technology.
+      I enjoy exploring new things and building
+      creative digital projects.
+    </p>
+  </div>
+
+  <h2>🚀 MY SKILLS</h2>
+
+  <div class="skills">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Python</span>
+    <span>GitHub</span>
+    <span>Technology</span>
+  </div>
+
+  <h2>💻 CODING WORLD</h2>
+
+  <img class="gif"
+  src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"
+  alt="Programming animation">
+
+  <h2>📊 GITHUB STATISTICS</h2>
+
+  <img class="stats"
+  src="https://github-readme-stats.vercel.app/api?username=w1227203-cmyk&show_icons=true&theme=midnight-purple"
+  alt="GitHub statistics">
+
+  <img class="stats"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=w1227203-cmyk&layout=compact&theme=midnight-purple"
+  alt="Programming languages">
+
+  <h2>🎯 MY GOALS</h2>
+
+  <div class="card">
+    <p>✔ Learn HTML</p>
+    <p>✔ Learn CSS</p>
+    <p>➜ Master JavaScript</p>
+    <p>➜ Build amazing websites</p>
+    <p>➜ Become a developer</p>
+  </div>
+
+  <h2>🌠 NEVER STOP LEARNING</h2>
+
+  <img class="gif"
+  src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif"
+  alt="Animation">
+
+  <h2>THANK YOU FOR VISITING!</h2>
+
+  <p>
+    Keep Learning. Keep Exploring.
+    Keep Moving Forward.
+  </p>
+
+  <br>
+
+  <a href="https://github.com/w1227203-cmyk">
+    VISIT MY GITHUB ↗
+  </a>
+
+</div>
+
+<footer>
+  <p>© 2026 Rian | My Digital World</p>
+  <p>Made with HTML & CSS</p>
+</footer>
+
+<script>
+const words = [
+  "WELCOME TO MY WORLD",
+  "KEEP LEARNING",
+  "KEEP EXPLORING",
+  "NEVER GIVE UP"
+];
+
+let index = 0;
+
+setInterval(() => {
+  index = (index + 1) % words.length;
+  document.getElementById("typing").textContent = words[index];
+}, 2000);
+</script>
+
+</body>
+</html>
